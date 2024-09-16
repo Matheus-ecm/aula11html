@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    background: url(teclado.jpg);
+}
+
+.lading-page{
+    display: flex;
+    height: 100vh;
+
+}
+
+.cont{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 70px;
+    padding-right: 70px;
+    color: white;
+    background-color: black
+}
+
+.cont h1{
+    margin: 0;
+    font-size: 30px;
+}
+
+.cont p{
+    font-size: 1.2em;
+}
+
+.highlighted{
+    color: orangered;
+    font-weight: bolder;
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.598);
+    padding: 20px;
+}
+
+.form-container h2 {
+color: white;
+margin-bottom: 20px;
+}
+
+form{
+    background: #333;
+    padding: 20px;
+    padding-right: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-self: center;
+}
